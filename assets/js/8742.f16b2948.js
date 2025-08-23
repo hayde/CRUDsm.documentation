@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkCRUDsm=self.webpackChunkCRUDsm||[]).push([[8742],{8742:(e,s,c)=>{c.d(s,{createPieServices:()=>a.f});var a=c(7857);c(1028)}}]);
