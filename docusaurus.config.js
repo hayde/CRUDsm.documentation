@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CRUDsm',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Optimize your web forms',
   favicon: 'img/favicon.ico',
 
   // for mermaid added
@@ -29,12 +29,15 @@ const config = {
   url: 'https://hayde.github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/CRUDsm.documentation/',
+  baseUrl: '/CRUDsm/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'hayde', // Usually your GitHub org/user name.
-  projectName: 'CRUDsm.documentation', // Usually your repo name.
+  projectName: 'CRUDsm', // Usually your repo name.
+
+  deploymentBranch: "gh-pages", // the branch to deploy to
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -87,9 +90,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'CRUDsm',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'CRUDsm Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -101,7 +104,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/hayde/CRUDsm',
             label: 'GitHub',
             position: 'right',
           },
@@ -145,7 +148,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/hayde/CRUDsm',
               },
             ],
           },

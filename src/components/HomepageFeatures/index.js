@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        CRUDsm was designed form the ground up to the easy usable to get your web forms up, running quickly and reducing debug time.
       </>
     ),
   },
@@ -18,18 +17,18 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        CRUDsm lets you focus on your data and forms, and we&apos;ll do the chores. Go
+        ahead and create complex form structures, with lieghtweight handling necessities.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'From developers for developers',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Created from developers for developers to minimize the coding, testing 
+        and debugging time. Just create complex forms with minimum effort and maximum stability.
       </>
     ),
   },
