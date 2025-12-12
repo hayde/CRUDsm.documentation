@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkCRUDsm=self.webpackChunkCRUDsm||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/CRUDsm.documentation/blog","blogTitle":"Blog","authorsListPath":"/CRUDsm.documentation/blog/authors"}')}}]);
