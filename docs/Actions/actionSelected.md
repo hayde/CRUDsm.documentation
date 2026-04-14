@@ -37,7 +37,8 @@ crud.actionNew( (id) => {
     // inform the other clients, that there is a selection change
     client.send( 'skip', id );
 
-    return true;
+    // return the selected id back, or anotherone.
+    return id;
 });
 ```
 
