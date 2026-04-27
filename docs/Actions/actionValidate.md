@@ -19,9 +19,8 @@ We don't have a sample at the moment, that is asyncronous. Don't hesitate to sen
 ### Syncronous
 
 ```js
-crud.actionNew( () => {
-    var c = new Contact();
-    return c;
+crud.validate( (c) => {
+    
 });
 ```
 
